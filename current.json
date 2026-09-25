@@ -1,7 +1,68 @@
 {
-  "generated_at": null,
-  "data_changed_at": null,
+  "generated_at": "2026-09-25T13:20:14Z",
+  "data_changed_at": "2026-09-25T13:20:14Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
-  "providers": []
+  "providers": [
+    {
+      "slug": "decodo",
+      "name": "Decodo",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.00",
+      "checked_at": "2026-09-25T13:19:52Z",
+      "source_url": "https://decodo.com/proxies/residential-proxies/pricing"
+    },
+    {
+      "slug": "iproyal",
+      "name": "IPRoyal",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "5.25",
+      "checked_at": "2026-09-25T13:20:02Z",
+      "source_url": "https://iproyal.com/pricing/residential-proxies/"
+    },
+    {
+      "slug": "nodemaven",
+      "name": "NodeMaven",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.45",
+      "checked_at": "2026-09-25T13:20:07Z",
+      "source_url": "https://nodemaven.com/pricing/"
+    },
+    {
+      "slug": "oxylabs",
+      "name": "Oxylabs",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "5.00",
+      "checked_at": "2026-09-25T13:20:10Z",
+      "source_url": "https://oxylabs.io/pricing/residential-proxy-pool"
+    },
+    {
+      "slug": "packetstream",
+      "name": "PacketStream",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "1.00",
+      "checked_at": "2026-09-25T13:20:14Z",
+      "source_url": "https://packetstream.io/pricing/"
+    }
+  ]
 }
