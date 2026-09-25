@@ -2,12 +2,15 @@ https://proxyticker.com
 
 # proxy-pricing-data
 
-Open dataset of residential proxy pricing across 50+ providers, published daily by
+Open dataset of residential proxy pricing, published daily by
 [ProxyTicker](https://proxyticker.com) — an independent price index for residential
-proxies.
+proxies. This repository is a daily mirror of the data behind the site — coverage is
+growing towards the whole residential proxy market, not stopping at today's list.
 
 This repository is intentionally data-only: no scraper code, no application logic, just
-the machine-readable snapshot behind the site. Every provider tracked on the site is
+the machine-readable snapshot behind the site.
+`.github/workflows/publish.yml` only copies the published files from the API — no
+scraping or application code lives here. Every provider tracked on the site is
 included here with its headline price — nothing is filtered out to make the numbers look
 better. Deeper data (effective price with its full breakdown, tiers, historical charts,
 provider comparisons) lives on [proxyticker.com](https://proxyticker.com).
@@ -34,7 +37,7 @@ Both files share the same envelope:
 
 `generated_at` is when the file was written; `data_changed_at` is when the underlying data
 last actually changed (so you can tell freshness from a file that's regenerated daily but
-whose numbers didn't move). Both are `null` until the first real data run.
+whose numbers didn't move).
 
 ## Update frequency
 
@@ -55,7 +58,8 @@ attribute it as:
 curl:
 
 ```bash
-curl -s https://raw.githubusercontent.com/proxyticker/proxy-pricing-data/main/current.json | jq .
+curl -s https://proxyticker.com/api/v1/current.json | jq .
+curl -s https://proxyticker.com/api/v1/providers.json | jq .
 ```
 
 Python:
@@ -63,9 +67,7 @@ Python:
 ```python
 import httpx
 
-resp = httpx.get(
-    "https://raw.githubusercontent.com/proxyticker/proxy-pricing-data/main/current.json"
-)
+resp = httpx.get("https://proxyticker.com/api/v1/current.json")
 data = resp.json()
 print(data["attribution"], data["generated_at"])
 for provider in data["providers"]:

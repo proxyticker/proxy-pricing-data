@@ -1,0 +1,50 @@
+name: Publish
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: publish
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch, validate and publish the snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          curl -fsS --retry 3 -o /tmp/current.json https://proxyticker.com/api/v1/current.json
+          curl -fsS --retry 3 -o /tmp/providers.json https://proxyticker.com/api/v1/providers.json
+
+          current_generated_at=$(jq -e -r '.generated_at' /tmp/current.json)
+          providers_generated_at=$(jq -e -r '.generated_at' /tmp/providers.json)
+
+          if [ "$current_generated_at" != "$providers_generated_at" ]; then
+            echo "generated_at mismatch: current.json=$current_generated_at providers.json=$providers_generated_at" >&2
+            exit 1
+          fi
+
+          mv /tmp/current.json current.json
+          mv /tmp/providers.json providers.json
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "nothing to publish"
+            exit 0
+          fi
+
+          git add current.json providers.json
+          git commit -m "chore(data): snapshot $current_generated_at"
+          git push
