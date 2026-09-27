@@ -39,6 +39,29 @@ Both files share the same envelope:
 last actually changed (so you can tell freshness from a file that's regenerated daily but
 whose numbers didn't move).
 
+## Provider status
+
+Every provider in both files carries a `status`:
+
+- **`active`** — currently tracked; prices are checked daily and `headline_price`,
+  `checked_at`, and `source_url` in `current.json` are populated.
+- **`price_not_public`** — the provider no longer publishes pricing we can scrape (for
+  example, quote-only or behind a login).
+- **`rebranded`** — reserved for a future rename-in-place case (same `slug`, new
+  `name`); not currently assigned to any provider.
+- **`seized`** — taken down by law enforcement.
+- **`defunct`** — no longer operating.
+
+Only `active` providers with a price on record have `headline_price`/`checked_at`/
+`source_url` set; for every other status those three fields are `null`. Providers are
+never removed from these files when their status changes — the record stays, with an
+updated `status`.
+
+Staleness isn't a status: a provider can be `active` with a `checked_at` that's older
+than usual if the last check failed or was skipped. Compare `checked_at` (or
+`data_changed_at` for the whole file) against the current time to judge freshness
+yourself.
+
 ## Update frequency
 
 Data is collected once a day, every day at **04:00 UTC**. There is no embargo or delay —
