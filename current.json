@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T04:01:13Z",
+  "generated_at": "2026-09-28T04:01:11Z",
   "data_changed_at": "2026-09-25T13:20:14Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
@@ -13,7 +13,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.00",
-      "checked_at": "2026-09-27T04:00:50Z",
+      "checked_at": "2026-09-28T04:00:50Z",
       "source_url": "https://decodo.com/proxies/residential-proxies/pricing"
     },
     {
@@ -25,7 +25,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "5.25",
-      "checked_at": "2026-09-27T04:01:01Z",
+      "checked_at": "2026-09-28T04:01:00Z",
       "source_url": "https://iproyal.com/pricing/residential-proxies/"
     },
     {
@@ -37,7 +37,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.45",
-      "checked_at": "2026-09-27T04:01:05Z",
+      "checked_at": "2026-09-28T04:01:04Z",
       "source_url": "https://nodemaven.com/pricing/"
     },
     {
@@ -49,7 +49,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "5.00",
-      "checked_at": "2026-09-27T04:01:09Z",
+      "checked_at": "2026-09-28T04:01:08Z",
       "source_url": "https://oxylabs.io/pricing/residential-proxy-pool"
     },
     {
@@ -61,7 +61,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "1.00",
-      "checked_at": "2026-09-27T04:01:13Z",
+      "checked_at": "2026-09-28T04:01:11Z",
       "source_url": "https://packetstream.io/pricing/"
     }
   ]
