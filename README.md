@@ -1,5 +1,3 @@
-https://proxyticker.com
-
 # proxy-pricing-data
 
 Open dataset of residential proxy pricing, published daily by
@@ -7,19 +5,34 @@ Open dataset of residential proxy pricing, published daily by
 proxies. This repository is a daily mirror of the data behind the site — coverage is
 growing towards the whole residential proxy market, not stopping at today's list.
 
+## Current prices
+
+List price per GB of the tier that applies at 50 GB a month, in USD — the
+`headline_price` field of [`current.json`](current.json). It isn't what a buyer ends up
+paying: minimum deposits and expiring traffic can push the real cost per GB higher. The
+effective price at 5, 50, 500 and 1,000 GB a month, with its breakdown, is on
+[proxyticker.com](https://proxyticker.com).
+
+<!-- prices:start -->
+<!-- prices:end -->
+
+Field reference, license details and how to cite:
+[proxyticker.com/data](https://proxyticker.com/data).
+
 This repository is intentionally data-only: no scraper code, no application logic, just
 the machine-readable snapshot behind the site.
-`.github/workflows/publish.yml` only copies the published files from the API — no
-scraping or application code lives here. Every provider tracked on the site is
-included here with its headline price — nothing is filtered out to make the numbers look
+`.github/workflows/publish.yml` only copies the published files from the API, including
+the ready-made price table above — no scraping or application code lives here. Every
+provider tracked on the site is included here with its list price at 50 GB — nothing is filtered out to make the numbers look
 better. Deeper data (effective price with its full breakdown, tiers, historical charts,
 provider comparisons) lives on [proxyticker.com](https://proxyticker.com).
 
 ## Files
 
-- **`current.json`** — current snapshot of headline prices for every tracked provider.
-  The headline price is the advertised price at the 50 GB reference tier (not a "from $X"
-  marketing figure — those aren't comparable across providers).
+- **`current.json`** — current snapshot of list prices at 50 GB for every tracked provider.
+  `headline_price` is the list price per GB of the tier that applies at 50 GB a month —
+  not the provider's advertised "from" price, which usually requires hundreds or thousands
+  of GB a month and isn't comparable across providers.
 - **`providers.json`** — the provider directory: names, slugs, and other static metadata
   that doesn't change with a daily price update.
 
@@ -64,8 +77,10 @@ yourself.
 
 ## Update frequency
 
-Data is collected once a day, every day at **04:00 UTC**. There is no embargo or delay —
-this dataset is published at the same time the numbers go live on the site.
+Prices are collected once a day at about 04:00 UTC and go live on the site straight away.
+This repository mirrors that snapshot later the same day — usually by 12:00 UTC (GitHub
+runs scheduled workflows with a delay). Use `generated_at` to see which collection a file
+belongs to.
 
 ## License and attribution
 

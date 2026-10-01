@@ -37,14 +37,53 @@ jobs:
           mv /tmp/current.json current.json
           mv /tmp/providers.json providers.json
 
+          # The price table is a ready-made block from the API. Its failure must not hold
+          # back the JSON: README stays as is, the run ends red after the push.
+          readme_marker_start='<!-- prices:start -->'
+          readme_marker_end='<!-- prices:end -->'
+          table_problem=""
+
+          if ! curl -fsS --retry 3 -o /tmp/readme-table.md https://proxyticker.com/api/v1/readme-table.md; then
+            table_problem="could not download readme-table.md"
+          elif [ "$(head -n 1 /tmp/readme-table.md)" != "<!-- generated_at: $current_generated_at -->" ]; then
+            table_problem="readme-table.md does not start with the generated_at marker $current_generated_at"
+          elif [ "$(grep -c -x -F "$readme_marker_start" README.md)" != "1" ] || [ "$(grep -c -x -F "$readme_marker_end" README.md)" != "1" ]; then
+            table_problem="README.md must contain exactly one start and one end price marker"
+          else
+            start_line=$(grep -n -x -F "$readme_marker_start" README.md | cut -d: -f1)
+            end_line=$(grep -n -x -F "$readme_marker_end" README.md | cut -d: -f1)
+            if [ "$start_line" -ge "$end_line" ]; then
+              table_problem="the start price marker must be above the end marker in README.md"
+            else
+              awk -v table=/tmp/readme-table.md -v start="$readme_marker_start" -v end="$readme_marker_end" '
+                $0 == end { skipping = 0 }
+                !skipping { print }
+                $0 == start {
+                  while ((getline line < table) > 0) print line
+                  close(table)
+                  skipping = 1
+                }
+              ' README.md > /tmp/README.new
+              mv /tmp/README.new README.md
+            fi
+          fi
+
+          if [ -n "$table_problem" ]; then
+            echo "::warning::price table not updated: $table_problem"
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
 
           if git diff --quiet; then
             echo "nothing to publish"
-            exit 0
+          else
+            git add current.json providers.json README.md
+            git commit -m "chore(data): snapshot $current_generated_at"
+            git push
           fi
 
-          git add current.json providers.json
-          git commit -m "chore(data): snapshot $current_generated_at"
-          git push
+          if [ -n "$table_problem" ]; then
+            echo "price table was not updated: $table_problem" >&2
+            exit 1
+          fi
