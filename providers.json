@@ -1,9 +1,21 @@
 {
-  "generated_at": "2026-09-30T04:00:34Z",
-  "data_changed_at": "2026-09-25T13:20:14Z",
+  "generated_at": "2026-10-01T04:01:21Z",
+  "data_changed_at": "2026-10-01T04:01:21Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
+    {
+      "slug": "brightdata",
+      "name": "Bright Data",
+      "website_url": "https://brightdata.com",
+      "status": "active"
+    },
+    {
+      "slug": "dataimpulse",
+      "name": "DataImpulse",
+      "website_url": "https://dataimpulse.com",
+      "status": "active"
+    },
     {
       "slug": "decodo",
       "name": "Decodo",
@@ -32,6 +44,18 @@
       "slug": "packetstream",
       "name": "PacketStream",
       "website_url": "https://packetstream.io",
+      "status": "active"
+    },
+    {
+      "slug": "rayobyte",
+      "name": "Rayobyte",
+      "website_url": "https://rayobyte.com",
+      "status": "active"
+    },
+    {
+      "slug": "webshare",
+      "name": "Webshare",
+      "website_url": "https://www.webshare.io",
       "status": "active"
     }
   ]
