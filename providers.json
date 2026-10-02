@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T04:01:21Z",
-  "data_changed_at": "2026-10-01T04:01:21Z",
+  "generated_at": "2026-10-02T04:01:42Z",
+  "data_changed_at": "2026-10-02T04:01:42Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -50,6 +50,12 @@
       "slug": "rayobyte",
       "name": "Rayobyte",
       "website_url": "https://rayobyte.com",
+      "status": "active"
+    },
+    {
+      "slug": "thordata",
+      "name": "Thordata",
+      "website_url": "https://www.thordata.com",
       "status": "active"
     },
     {
