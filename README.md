@@ -14,22 +14,23 @@ effective price at 5, 50, 500 and 1,000 GB a month, with its breakdown, is on
 [proxyticker.com](https://proxyticker.com).
 
 <!-- prices:start -->
-<!-- generated_at: 2026-10-03T04:01:15Z -->
+<!-- generated_at: 2026-10-04T04:01:32Z -->
 
 | Provider | List price, $/GB at 50 GB/month | Checked |
 |---|---:|---|
-| [Bright Data](https://proxyticker.com/providers/brightdata) | $7.00 | 2026-10-03 |
-| [DataImpulse](https://proxyticker.com/providers/dataimpulse) | $1.00 | 2026-10-03 |
-| [Decodo](https://proxyticker.com/providers/decodo) | $3.00 | 2026-10-03 |
-| [IPRoyal](https://proxyticker.com/providers/iproyal) | $5.25 | 2026-10-03 |
-| [NodeMaven](https://proxyticker.com/providers/nodemaven) | $3.45 | 2026-10-03 |
-| [Oxylabs](https://proxyticker.com/providers/oxylabs) | $5.00 | 2026-10-03 |
-| [PacketStream](https://proxyticker.com/providers/packetstream) | $1.00 | 2026-10-03 |
-| [Rayobyte](https://proxyticker.com/providers/rayobyte) | $2.00 | 2026-10-03 |
-| [Thordata](https://proxyticker.com/providers/thordata) | $1.50 | 2026-10-03 |
-| [Webshare](https://proxyticker.com/providers/webshare) | $2.45 | 2026-10-03 |
+| [Bright Data](https://proxyticker.com/providers/brightdata) | $7.00 | 2026-10-04 |
+| [DataImpulse](https://proxyticker.com/providers/dataimpulse) | $1.00 | 2026-10-04 |
+| [Decodo](https://proxyticker.com/providers/decodo) | $3.00 | 2026-10-04 |
+| [IPRoyal](https://proxyticker.com/providers/iproyal) | $5.25 | 2026-10-04 |
+| [NodeMaven](https://proxyticker.com/providers/nodemaven) | $3.45 | 2026-10-04 |
+| [Oxylabs](https://proxyticker.com/providers/oxylabs) | $5.00 | 2026-10-04 |
+| [PacketStream](https://proxyticker.com/providers/packetstream) | $1.00 | 2026-10-04 |
+| [Proxy-Cheap](https://proxyticker.com/providers/proxy-cheap) | $1.20 | 2026-10-04 |
+| [Rayobyte](https://proxyticker.com/providers/rayobyte) | $2.00 | 2026-10-04 |
+| [Thordata](https://proxyticker.com/providers/thordata) | $1.50 | 2026-10-04 |
+| [Webshare](https://proxyticker.com/providers/webshare) | $2.45 | 2026-10-04 |
 
-Last updated 2026-10-03 (prices last changed 2026-10-03) · [CC BY 4.0](LICENSE)
+Last updated 2026-10-04 (prices last changed 2026-10-04) · [CC BY 4.0](LICENSE)
 
 <!-- prices:end -->
 
