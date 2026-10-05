@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T04:01:32Z",
-  "data_changed_at": "2026-10-04T04:01:32Z",
+  "generated_at": "2026-10-05T04:01:17Z",
+  "data_changed_at": "2026-10-05T04:01:17Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -8,6 +8,12 @@
       "slug": "brightdata",
       "name": "Bright Data",
       "website_url": "https://brightdata.com",
+      "status": "active"
+    },
+    {
+      "slug": "byteful",
+      "name": "Byteful",
+      "website_url": "https://byteful.com",
       "status": "active"
     },
     {
@@ -20,6 +26,18 @@
       "slug": "decodo",
       "name": "Decodo",
       "website_url": "https://decodo.com",
+      "status": "active"
+    },
+    {
+      "slug": "hydraproxy",
+      "name": "HydraProxy",
+      "website_url": "https://hydraproxy.com",
+      "status": "active"
+    },
+    {
+      "slug": "infatica",
+      "name": "Infatica",
+      "website_url": "https://infatica.io",
       "status": "active"
     },
     {
@@ -50,6 +68,18 @@
       "slug": "proxy-cheap",
       "name": "Proxy-Cheap",
       "website_url": "https://www.proxy-cheap.com",
+      "status": "active"
+    },
+    {
+      "slug": "proxy-seller",
+      "name": "Proxy-Seller",
+      "website_url": "https://proxy-seller.com",
+      "status": "active"
+    },
+    {
+      "slug": "proxyempire",
+      "name": "ProxyEmpire",
+      "website_url": "https://proxyempire.io",
       "status": "active"
     },
     {
