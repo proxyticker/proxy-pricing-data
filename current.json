@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T04:01:51Z",
-  "data_changed_at": "2026-10-06T04:01:51Z",
+  "generated_at": "2026-10-07T04:02:13Z",
+  "data_changed_at": "2026-10-07T04:02:13Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -13,7 +13,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "7.00",
-      "checked_at": "2026-10-06T04:00:28Z",
+      "checked_at": "2026-10-07T04:00:40Z",
       "source_url": "https://brightdata.com/pricing/proxy-network/residential-proxies"
     },
     {
@@ -25,7 +25,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.00",
-      "checked_at": "2026-10-06T04:00:32Z",
+      "checked_at": "2026-10-07T04:00:44Z",
       "source_url": "https://byteful.com/pricing"
     },
     {
@@ -37,7 +37,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "1.00",
-      "checked_at": "2026-10-06T04:00:36Z",
+      "checked_at": "2026-10-07T04:00:48Z",
       "source_url": "https://dataimpulse.com/residential-proxies/"
     },
     {
@@ -49,8 +49,20 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.00",
-      "checked_at": "2026-10-06T04:00:47Z",
+      "checked_at": "2026-10-07T04:00:59Z",
       "source_url": "https://decodo.com/proxies/residential-proxies/pricing"
+    },
+    {
+      "slug": "froxy",
+      "name": "Froxy",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "4.4286",
+      "checked_at": "2026-10-07T04:01:03Z",
+      "source_url": "https://froxy.com/en/pricing"
     },
     {
       "slug": "hydraproxy",
@@ -61,7 +73,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.50",
-      "checked_at": "2026-10-06T04:00:50Z",
+      "checked_at": "2026-10-07T04:01:06Z",
       "source_url": "https://hydraproxy.com/pricing/"
     },
     {
@@ -73,7 +85,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.84",
-      "checked_at": "2026-10-06T04:00:54Z",
+      "checked_at": "2026-10-07T04:01:10Z",
       "source_url": "https://infatica.io/pricing/"
     },
     {
@@ -85,7 +97,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "5.25",
-      "checked_at": "2026-10-06T04:01:04Z",
+      "checked_at": "2026-10-07T04:01:20Z",
       "source_url": "https://iproyal.com/pricing/residential-proxies/"
     },
     {
@@ -97,7 +109,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.1936",
-      "checked_at": "2026-10-06T04:01:15Z",
+      "checked_at": "2026-10-07T04:01:30Z",
       "source_url": "https://marsproxies.com/pricing/residential-proxies/"
     },
     {
@@ -109,7 +121,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.45",
-      "checked_at": "2026-10-06T04:01:18Z",
+      "checked_at": "2026-10-07T04:01:34Z",
       "source_url": "https://nodemaven.com/pricing/"
     },
     {
@@ -121,7 +133,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "5.00",
-      "checked_at": "2026-10-06T04:01:22Z",
+      "checked_at": "2026-10-07T04:01:38Z",
       "source_url": "https://oxylabs.io/pricing/residential-proxy-pool"
     },
     {
@@ -133,7 +145,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "1.00",
-      "checked_at": "2026-10-06T04:01:25Z",
+      "checked_at": "2026-10-07T04:01:41Z",
       "source_url": "https://packetstream.io/pricing/"
     },
     {
@@ -145,7 +157,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "1.20",
-      "checked_at": "2026-10-06T04:01:29Z",
+      "checked_at": "2026-10-07T04:01:44Z",
       "source_url": "https://www.proxy-cheap.com/pricing/rotating-residential-proxies"
     },
     {
@@ -157,7 +169,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "2.50",
-      "checked_at": "2026-10-06T04:01:33Z",
+      "checked_at": "2026-10-07T04:01:48Z",
       "source_url": "https://proxy-seller.com/residential-proxies/"
     },
     {
@@ -169,7 +181,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "5.3571",
-      "checked_at": "2026-10-06T04:01:36Z",
+      "checked_at": "2026-10-07T04:01:52Z",
       "source_url": "https://proxyempire.io/pricing-table/"
     },
     {
@@ -181,7 +193,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "2.00",
-      "checked_at": "2026-10-06T04:01:40Z",
+      "checked_at": "2026-10-07T04:01:55Z",
       "source_url": "https://rayobyte.com/products/residential-proxies/"
     },
     {
@@ -193,8 +205,32 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "1.00",
-      "checked_at": "2026-10-06T04:01:44Z",
+      "checked_at": "2026-10-07T04:01:59Z",
       "source_url": "https://shifter.io/pricing/residential-proxies"
+    },
+    {
+      "slug": "simplynode",
+      "name": "SimplyNode",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.25",
+      "checked_at": "2026-10-07T04:02:02Z",
+      "source_url": "https://www.simplynode.io/"
+    },
+    {
+      "slug": "soax",
+      "name": "SOAX",
+      "status": "active",
+      "category": "residential",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.00",
+      "checked_at": "2026-10-07T04:02:06Z",
+      "source_url": "https://soax.com/pricing"
     },
     {
       "slug": "thordata",
@@ -205,7 +241,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "1.50",
-      "checked_at": "2026-10-06T04:01:47Z",
+      "checked_at": "2026-10-07T04:02:09Z",
       "source_url": "https://www.thordata.com/pricing/residential-proxies/"
     },
     {
@@ -217,7 +253,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "2.45",
-      "checked_at": "2026-10-06T04:01:51Z",
+      "checked_at": "2026-10-07T04:02:13Z",
       "source_url": "https://www.webshare.io/pricing"
     }
   ]
