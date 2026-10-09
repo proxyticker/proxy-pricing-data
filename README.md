@@ -14,39 +14,39 @@ effective price at 5, 50, 500 and 1,000 GB a month, with its breakdown, is on
 [proxyticker.com](https://proxyticker.com).
 
 <!-- prices:start -->
-<!-- generated_at: 2026-10-08T04:02:54Z -->
+<!-- generated_at: 2026-10-09T04:02:47Z -->
 
 | Provider | List price, $/GB at 50 GB/month | Checked |
 |---|---:|---|
-| [Bright Data](https://proxyticker.com/providers/brightdata) | $7.00 | 2026-10-08 |
-| [Byteful](https://proxyticker.com/providers/byteful) | $3.00 | 2026-10-08 |
-| [Databay](https://proxyticker.com/providers/databay) | $1.75 | 2026-10-08 |
-| [DataImpulse](https://proxyticker.com/providers/dataimpulse) | $1.00 | 2026-10-08 |
-| [Decodo](https://proxyticker.com/providers/decodo) | $3.00 | 2026-10-08 |
-| [Evomi](https://proxyticker.com/providers/evomi) | $0.49 | 2026-10-08 |
-| [Froxy](https://proxyticker.com/providers/froxy) | $4.4286 | 2026-10-08 |
-| [Geonix](https://proxyticker.com/providers/geonix) | $2.10 | 2026-10-08 |
-| [Geonode](https://proxyticker.com/providers/geonode) | $0.693 | 2026-10-08 |
-| [HydraProxy](https://proxyticker.com/providers/hydraproxy) | $3.50 | 2026-10-08 |
-| [Infatica](https://proxyticker.com/providers/infatica) | $3.84 | 2026-10-08 |
-| [IPRoyal](https://proxyticker.com/providers/iproyal) | $5.25 | 2026-10-08 |
-| [MarsProxies](https://proxyticker.com/providers/marsproxies) | $3.1936 | 2026-10-08 |
-| [NodeMaven](https://proxyticker.com/providers/nodemaven) | $3.45 | 2026-10-08 |
-| [Oxylabs](https://proxyticker.com/providers/oxylabs) | $5.00 | 2026-10-07 |
-| [PacketStream](https://proxyticker.com/providers/packetstream) | $1.00 | 2026-10-08 |
-| [Proxy-Cheap](https://proxyticker.com/providers/proxy-cheap) | $1.20 | 2026-10-08 |
-| [Proxy-Seller](https://proxyticker.com/providers/proxy-seller) | $2.50 | 2026-10-08 |
-| [ProxyEmpire](https://proxyticker.com/providers/proxyempire) | $5.3571 | 2026-10-08 |
-| [ProxyScrape](https://proxyticker.com/providers/proxyscrape) | $2.65 | 2026-10-08 |
-| [ProxyShare](https://proxyticker.com/providers/proxyshare) | $0.90 | 2026-10-08 |
-| [Rayobyte](https://proxyticker.com/providers/rayobyte) | $2.00 | 2026-10-08 |
-| [Shifter](https://proxyticker.com/providers/shifter) | $1.00 | 2026-10-08 |
-| [SimplyNode](https://proxyticker.com/providers/simplynode) | $3.25 | 2026-10-08 |
-| [SOAX](https://proxyticker.com/providers/soax) | $3.00 | 2026-10-08 |
-| [Thordata](https://proxyticker.com/providers/thordata) | $1.50 | 2026-10-08 |
-| [Webshare](https://proxyticker.com/providers/webshare) | $2.45 | 2026-10-08 |
+| [Bright Data](https://proxyticker.com/providers/brightdata) | $7.00 | 2026-10-09 |
+| [Byteful](https://proxyticker.com/providers/byteful) | $3.00 | 2026-10-09 |
+| [Databay](https://proxyticker.com/providers/databay) | $1.75 | 2026-10-09 |
+| [DataImpulse](https://proxyticker.com/providers/dataimpulse) | $1.00 | 2026-10-09 |
+| [Decodo](https://proxyticker.com/providers/decodo) | $3.00 | 2026-10-09 |
+| [Evomi](https://proxyticker.com/providers/evomi) | $0.49 | 2026-10-09 |
+| [Froxy](https://proxyticker.com/providers/froxy) | $4.4286 | 2026-10-09 |
+| [Geonix](https://proxyticker.com/providers/geonix) | $2.10 | 2026-10-09 |
+| [Geonode](https://proxyticker.com/providers/geonode) | $0.693 | 2026-10-09 |
+| [HydraProxy](https://proxyticker.com/providers/hydraproxy) | $3.50 | 2026-10-09 |
+| [Infatica](https://proxyticker.com/providers/infatica) | $3.84 | 2026-10-09 |
+| [IPRoyal](https://proxyticker.com/providers/iproyal) | $5.25 | 2026-10-09 |
+| [MarsProxies](https://proxyticker.com/providers/marsproxies) | $3.1936 | 2026-10-09 |
+| [NodeMaven](https://proxyticker.com/providers/nodemaven) | $3.45 | 2026-10-09 |
+| [Oxylabs](https://proxyticker.com/providers/oxylabs) | $5.00 | 2026-10-09 |
+| [PacketStream](https://proxyticker.com/providers/packetstream) | $1.00 | 2026-10-09 |
+| [Proxy-Cheap](https://proxyticker.com/providers/proxy-cheap) | $1.20 | 2026-10-09 |
+| [Proxy-Seller](https://proxyticker.com/providers/proxy-seller) | $2.50 | 2026-10-09 |
+| [ProxyEmpire](https://proxyticker.com/providers/proxyempire) | $5.3571 | 2026-10-09 |
+| [ProxyScrape](https://proxyticker.com/providers/proxyscrape) | $2.65 | 2026-10-09 |
+| [ProxyShare](https://proxyticker.com/providers/proxyshare) | $0.90 | 2026-10-09 |
+| [Rayobyte](https://proxyticker.com/providers/rayobyte) | $2.00 | 2026-10-09 |
+| [Shifter](https://proxyticker.com/providers/shifter) | $1.00 | 2026-10-09 |
+| [SimplyNode](https://proxyticker.com/providers/simplynode) | $3.25 | 2026-10-09 |
+| [SOAX](https://proxyticker.com/providers/soax) | $3.00 | 2026-10-09 |
+| [Thordata](https://proxyticker.com/providers/thordata) | $1.50 | 2026-10-09 |
+| [Webshare](https://proxyticker.com/providers/webshare) | $2.45 | 2026-10-09 |
 
-Last updated 2026-10-08 (prices last changed 2026-10-08) · [CC BY 4.0](LICENSE)
+Last updated 2026-10-09 (prices last changed 2026-10-08) · [CC BY 4.0](LICENSE)
 
 <!-- prices:end -->
 
