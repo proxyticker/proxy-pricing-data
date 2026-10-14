@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T04:02:09Z",
-  "data_changed_at": "2026-10-08T04:02:54Z",
+  "generated_at": "2026-10-14T04:03:08Z",
+  "data_changed_at": "2026-10-14T04:03:08Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -14,6 +14,12 @@
       "slug": "byteful",
       "name": "Byteful",
       "website_url": "https://byteful.com",
+      "status": "active"
+    },
+    {
+      "slug": "catproxies",
+      "name": "CatProxies",
+      "website_url": "https://catproxies.com",
       "status": "active"
     },
     {
@@ -38,6 +44,12 @@
       "slug": "evomi",
       "name": "Evomi",
       "website_url": "https://evomi.com",
+      "status": "active"
+    },
+    {
+      "slug": "fleetproxy",
+      "name": "FleetProxy",
+      "website_url": "https://fleetproxy.io",
       "status": "active"
     },
     {
@@ -101,6 +113,12 @@
       "status": "active"
     },
     {
+      "slug": "proxmint",
+      "name": "Proxmint",
+      "website_url": "https://proxmint.com",
+      "status": "active"
+    },
+    {
       "slug": "proxy-cheap",
       "name": "Proxy-Cheap",
       "website_url": "https://www.proxy-cheap.com",
@@ -128,6 +146,18 @@
       "slug": "proxyshare",
       "name": "ProxyShare",
       "website_url": "https://www.proxyshare.com",
+      "status": "active"
+    },
+    {
+      "slug": "psb-proxy",
+      "name": "PSB Proxy",
+      "website_url": "https://psbproxy.io/en",
+      "status": "active"
+    },
+    {
+      "slug": "rapidproxy",
+      "name": "RapidProxy",
+      "website_url": "https://www.rapidproxy.io",
       "status": "active"
     },
     {
