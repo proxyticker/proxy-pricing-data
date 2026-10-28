@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T04:02:44Z",
-  "data_changed_at": "2026-10-14T04:03:08Z",
+  "generated_at": "2026-10-28T04:03:00Z",
+  "data_changed_at": "2026-10-28T04:03:00Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -8,193 +8,295 @@
       "slug": "brightdata",
       "name": "Bright Data",
       "website_url": "https://brightdata.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "byteful",
       "name": "Byteful",
       "website_url": "https://byteful.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "catproxies",
       "name": "CatProxies",
       "website_url": "https://catproxies.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
     },
     {
       "slug": "databay",
       "name": "Databay",
       "website_url": "https://databay.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "dataimpulse",
       "name": "DataImpulse",
       "website_url": "https://dataimpulse.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
     },
     {
       "slug": "decodo",
       "name": "Decodo",
       "website_url": "https://decodo.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "evomi",
       "name": "Evomi",
       "website_url": "https://evomi.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "fleetproxy",
       "name": "FleetProxy",
       "website_url": "https://fleetproxy.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "froxy",
       "name": "Froxy",
       "website_url": "https://froxy.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
     },
     {
       "slug": "geonix",
       "name": "Geonix",
       "website_url": "https://geonix.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "geonode",
       "name": "Geonode",
       "website_url": "https://geonode.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "hydraproxy",
       "name": "HydraProxy",
       "website_url": "https://hydraproxy.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "infatica",
       "name": "Infatica",
       "website_url": "https://infatica.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "iproyal",
       "name": "IPRoyal",
       "website_url": "https://iproyal.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "marsproxies",
       "name": "MarsProxies",
       "website_url": "https://marsproxies.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "nodemaven",
       "name": "NodeMaven",
       "website_url": "https://nodemaven.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "oxylabs",
       "name": "Oxylabs",
       "website_url": "https://oxylabs.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "packetstream",
       "name": "PacketStream",
       "website_url": "https://packetstream.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "proxmint",
       "name": "Proxmint",
       "website_url": "https://proxmint.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "proxy-cheap",
       "name": "Proxy-Cheap",
       "website_url": "https://www.proxy-cheap.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "proxy-seller",
       "name": "Proxy-Seller",
       "website_url": "https://proxy-seller.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "proxyempire",
       "name": "ProxyEmpire",
       "website_url": "https://proxyempire.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
     },
     {
       "slug": "proxyscrape",
       "name": "ProxyScrape",
       "website_url": "https://proxyscrape.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "proxyshare",
       "name": "ProxyShare",
       "website_url": "https://www.proxyshare.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "psb-proxy",
       "name": "PSB Proxy",
       "website_url": "https://psbproxy.io/en",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "rapidproxy",
       "name": "RapidProxy",
       "website_url": "https://www.rapidproxy.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "rayobyte",
       "name": "Rayobyte",
       "website_url": "https://rayobyte.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "shifter",
       "name": "Shifter",
       "website_url": "https://shifter.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "simplynode",
       "name": "SimplyNode",
       "website_url": "https://www.simplynode.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
     },
     {
       "slug": "soax",
       "name": "SOAX",
       "website_url": "https://soax.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     },
     {
       "slug": "thordata",
       "name": "Thordata",
       "website_url": "https://www.thordata.com",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
     },
     {
       "slug": "webshare",
       "name": "Webshare",
       "website_url": "https://www.webshare.io",
-      "status": "active"
+      "status": "active",
+      "categories": [
+        "residential"
+      ]
     }
   ]
 }
