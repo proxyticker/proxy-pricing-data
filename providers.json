@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T04:03:00Z",
-  "data_changed_at": "2026-10-28T04:03:00Z",
+  "generated_at": "2026-10-29T04:03:23Z",
+  "data_changed_at": "2026-10-29T04:03:23Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -66,7 +66,8 @@
       "website_url": "https://evomi.com",
       "status": "active",
       "categories": [
-        "residential"
+        "residential",
+        "mobile"
       ]
     },
     {
@@ -75,7 +76,8 @@
       "website_url": "https://fleetproxy.io",
       "status": "active",
       "categories": [
-        "residential"
+        "residential",
+        "mobile"
       ]
     },
     {
@@ -121,7 +123,8 @@
       "website_url": "https://infatica.io",
       "status": "active",
       "categories": [
-        "residential"
+        "residential",
+        "mobile"
       ]
     },
     {
@@ -184,7 +187,8 @@
       "website_url": "https://www.proxy-cheap.com",
       "status": "active",
       "categories": [
-        "residential"
+        "residential",
+        "mobile"
       ]
     },
     {
@@ -212,7 +216,8 @@
       "website_url": "https://proxyscrape.com",
       "status": "active",
       "categories": [
-        "residential"
+        "residential",
+        "mobile"
       ]
     },
     {
@@ -230,7 +235,8 @@
       "website_url": "https://psbproxy.io/en",
       "status": "active",
       "categories": [
-        "residential"
+        "residential",
+        "mobile"
       ]
     },
     {
