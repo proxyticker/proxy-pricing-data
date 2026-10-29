@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "ProxyTicker: residential proxy list prices per GB"
+title: "ProxyTicker: residential and mobile proxy list prices per GB"
 abstract: >-
-  Daily snapshot of each tracked provider's residential proxy list price per GB
-  at 50 GB/month (USD), with the time the price was last confirmed and a link to
-  the provider's public pricing page. Past snapshots are kept in this
-  repository's commit history.
+  Daily snapshot of each tracked provider's residential and rotating mobile proxy
+  list price per GB at 50 GB/month (USD), with the time the price was last
+  confirmed and a link to the provider's public pricing page. Past snapshots are
+  kept in this repository's commit history.
 authors:
   - name: "ProxyTicker"
     website: "https://proxyticker.com"
@@ -16,6 +16,7 @@ url: "https://proxyticker.com/data"
 license: CC-BY-4.0
 keywords:
   - residential proxy
+  - mobile proxy
   - proxy pricing
   - price per GB
   - open data

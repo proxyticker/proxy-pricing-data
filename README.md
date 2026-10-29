@@ -66,16 +66,31 @@ provider tracked on the site is included here with its list price at 50 GB — n
 better. Deeper data (effective price with its full breakdown, tiers, historical charts,
 provider comparisons) lives on [proxyticker.com](https://proxyticker.com).
 
+## Mobile proxies
+
+Rotating mobile proxies priced per GB, in the same terms as above: list price per GB of
+the tier that applies at 50 GB a month, in USD — the `headline_price` field of
+[`current-mobile.json`](current-mobile.json). Dedicated mobile proxies sold per port or
+per day are not covered.
+
+<!-- prices-mobile:start -->
+<!-- prices-mobile:end -->
+
 ## Files
 
 - **`current.json`** — current snapshot of list prices at 50 GB for every tracked provider.
   `headline_price` is the list price per GB of the tier that applies at 50 GB a month —
   not the provider's advertised "from" price, which usually requires hundreds or thousands
   of GB a month and isn't comparable across providers.
+- **`current-mobile.json`** — the same snapshot for rotating mobile proxies priced per GB.
+  Each provider carries `category: "mobile"` and `unit: "per_gb"`. It comes from the same
+  collection run as `current.json` and has the same `generated_at`; if it can't be
+  published for a day, the previous version stays in place and keeps its older
+  `generated_at`.
 - **`providers.json`** — the provider directory: names, slugs, and other static metadata
   that doesn't change with a daily price update.
 
-Both files share the same envelope:
+All three files share the same envelope:
 
 ```json
 {
@@ -93,7 +108,7 @@ whose numbers didn't move).
 
 ## Provider status
 
-Every provider in both files carries a `status`:
+Every provider in the JSON files carries a `status`:
 
 - **`active`** — currently tracked; prices are checked daily and `headline_price`,
   `checked_at`, and `source_url` in `current.json` are populated.
@@ -136,6 +151,7 @@ curl:
 
 ```bash
 curl -s https://proxyticker.com/api/v1/current.json | jq .
+curl -s https://proxyticker.com/api/v1/current-mobile.json | jq .
 curl -s https://proxyticker.com/api/v1/providers.json | jq .
 ```
 
@@ -149,4 +165,16 @@ data = resp.json()
 print(data["attribution"], data["generated_at"])
 for provider in data["providers"]:
     print(provider)
+```
+
+Mobile proxies, cheapest first:
+
+```python
+import httpx
+
+resp = httpx.get("https://proxyticker.com/api/v1/current-mobile.json")
+data = resp.json()
+priced = [p for p in data["providers"] if p["headline_price"] is not None]
+for provider in sorted(priced, key=lambda p: float(p["headline_price"])):
+    print(provider["name"], provider["headline_price"])
 ```
