@@ -1,8 +1,8 @@
 # proxy-pricing-data
 
-Open dataset of residential proxy pricing, published daily by
-[ProxyTicker](https://proxyticker.com) — an independent price index for residential
-proxies. This repository is a daily mirror of the data behind the site — coverage is
+Open dataset of residential and rotating mobile (per GB) proxy pricing, published daily
+by [ProxyTicker](https://proxyticker.com) — an independent price index for proxies. This
+repository is a daily mirror of the data behind the site — residential coverage is
 growing towards the whole residential proxy market, not stopping at today's list.
 
 ## Current prices
@@ -61,7 +61,7 @@ Field reference, license details and how to cite:
 This repository is intentionally data-only: no scraper code, no application logic, just
 the machine-readable snapshot behind the site.
 `.github/workflows/publish.yml` only copies the published files from the API, including
-the ready-made price table above — no scraping or application code lives here. Every
+the ready-made price tables above — no scraping or application code lives here. Every
 provider tracked on the site is included here with its list price at 50 GB — nothing is filtered out to make the numbers look
 better. Deeper data (effective price with its full breakdown, tiers, historical charts,
 provider comparisons) lives on [proxyticker.com](https://proxyticker.com).
@@ -111,7 +111,7 @@ whose numbers didn't move).
 Every provider in the JSON files carries a `status`:
 
 - **`active`** — currently tracked; prices are checked daily and `headline_price`,
-  `checked_at`, and `source_url` in `current.json` are populated.
+  `checked_at`, and `source_url` in `current.json` and `current-mobile.json` are populated.
 - **`price_not_public`** — the provider no longer publishes pricing we can scrape (for
   example, quote-only or behind a login).
 - **`rebranded`** — reserved for a future rename-in-place case (same `slug`, new
