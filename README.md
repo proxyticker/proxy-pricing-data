@@ -7,7 +7,7 @@ growing towards the whole residential proxy market, not stopping at today's list
 
 ## Current prices
 
-List price per GB of the tier that applies at 50 GB a month, in USD — the
+Residential proxies: list price per GB of the tier that applies at 50 GB a month, in USD — the
 `headline_price` field of [`current.json`](current.json). It isn't what a buyer ends up
 paying: minimum deposits and expiring traffic can push the real cost per GB higher. The
 effective price at 5, 50, 500 and 1,000 GB a month, with its breakdown, is on
@@ -78,7 +78,7 @@ per day are not covered.
 
 ## Files
 
-- **`current.json`** — current snapshot of list prices at 50 GB for every tracked provider.
+- **`current.json`** — current snapshot of list prices at 50 GB for every tracked residential provider.
   `headline_price` is the list price per GB of the tier that applies at 50 GB a month —
   not the provider's advertised "from" price, which usually requires hundreds or thousands
   of GB a month and isn't comparable across providers.
