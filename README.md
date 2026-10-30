@@ -74,6 +74,24 @@ the tier that applies at 50 GB a month, in USD — the `headline_price` field of
 per day are not covered.
 
 <!-- prices-mobile:start -->
+<!-- generated_at: 2026-10-30T04:03:26Z -->
+
+| Provider | List price, $/GB at 50 GB/month | Checked |
+|---|---:|---|
+| [CatProxies](https://proxyticker.com/mobile-proxies/catproxies) | $3.50 | 2026-10-30 |
+| [DataImpulse](https://proxyticker.com/mobile-proxies/dataimpulse) | $2.00 | 2026-10-30 |
+| [Evomi](https://proxyticker.com/mobile-proxies/evomi) | $3.40 | 2026-10-30 |
+| [FleetProxy](https://proxyticker.com/mobile-proxies/fleetproxy) | $3.06 | 2026-10-30 |
+| [Froxy](https://proxyticker.com/mobile-proxies/froxy) | $6.00 | 2026-10-30 |
+| [Infatica](https://proxyticker.com/mobile-proxies/infatica) | $6.00 | 2026-10-30 |
+| [Proxy-Cheap](https://proxyticker.com/mobile-proxies/proxy-cheap) | $5.99 | 2026-10-30 |
+| [ProxyEmpire](https://proxyticker.com/mobile-proxies/proxyempire) | $6.6667 | 2026-10-30 |
+| [ProxyScrape](https://proxyticker.com/mobile-proxies/proxyscrape) | $2.65 | 2026-10-30 |
+| [PSB Proxy](https://proxyticker.com/mobile-proxies/psb-proxy) | $2.70 | 2026-10-29 |
+| [SimplyNode](https://proxyticker.com/mobile-proxies/simplynode) | $3.25 | 2026-10-30 |
+
+Last updated 2026-10-30 (prices last changed 2026-10-30) · [CC BY 4.0](LICENSE)
+
 <!-- prices-mobile:end -->
 
 ## Files

@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-10-30T04:03:26Z",
+  "data_changed_at": "2026-10-30T04:03:26Z",
+  "license": "CC-BY-4.0",
+  "attribution": "ProxyTicker, https://proxyticker.com",
+  "providers": [
+    {
+      "slug": "catproxies",
+      "name": "CatProxies",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.50",
+      "checked_at": "2026-10-30T04:01:08Z",
+      "source_url": "https://catproxies.com/pricing"
+    },
+    {
+      "slug": "dataimpulse",
+      "name": "DataImpulse",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "2.00",
+      "checked_at": "2026-10-30T04:01:16Z",
+      "source_url": "https://dataimpulse.com/residential-proxies/"
+    },
+    {
+      "slug": "evomi",
+      "name": "Evomi",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.40",
+      "checked_at": "2026-10-30T04:01:34Z",
+      "source_url": "https://evomi.com/product/mobile-proxies"
+    },
+    {
+      "slug": "fleetproxy",
+      "name": "FleetProxy",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.06",
+      "checked_at": "2026-10-30T04:01:38Z",
+      "source_url": "https://fleetproxy.io/pricing"
+    },
+    {
+      "slug": "froxy",
+      "name": "Froxy",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "6.00",
+      "checked_at": "2026-10-30T04:01:42Z",
+      "source_url": "https://froxy.com/en/pricing"
+    },
+    {
+      "slug": "infatica",
+      "name": "Infatica",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "6.00",
+      "checked_at": "2026-10-30T04:01:56Z",
+      "source_url": "https://infatica.io/pricing/"
+    },
+    {
+      "slug": "proxy-cheap",
+      "name": "Proxy-Cheap",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "5.99",
+      "checked_at": "2026-10-30T04:02:37Z",
+      "source_url": "https://www.proxy-cheap.com/services/mobile-proxies"
+    },
+    {
+      "slug": "proxyempire",
+      "name": "ProxyEmpire",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "6.6667",
+      "checked_at": "2026-10-30T04:02:44Z",
+      "source_url": "https://proxyempire.io/pricing-table/"
+    },
+    {
+      "slug": "proxyscrape",
+      "name": "ProxyScrape",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "2.65",
+      "checked_at": "2026-10-30T04:02:47Z",
+      "source_url": "https://proxyscrape.com/products/residential-proxies"
+    },
+    {
+      "slug": "psb-proxy",
+      "name": "PSB Proxy",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "2.70",
+      "checked_at": "2026-10-29T04:02:57Z",
+      "source_url": "https://psbproxy.io/en/prices/mobile-proxy"
+    },
+    {
+      "slug": "simplynode",
+      "name": "SimplyNode",
+      "status": "active",
+      "category": "mobile",
+      "unit": "per_gb",
+      "currency": "USD",
+      "reference_quantity": "50",
+      "headline_price": "3.25",
+      "checked_at": "2026-10-30T04:03:15Z",
+      "source_url": "https://www.simplynode.io/"
+    }
+  ]
+}
