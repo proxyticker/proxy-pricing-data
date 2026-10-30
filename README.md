@@ -61,7 +61,7 @@ Field reference, license details and how to cite:
 This repository is intentionally data-only: no scraper code, no application logic, just
 the machine-readable snapshot behind the site.
 `.github/workflows/publish.yml` only copies the published files from the API, including
-the ready-made price tables above — no scraping or application code lives here. Every
+the ready-made price tables in this README — no scraping or application code lives here. Every
 provider tracked on the site is included here with its list price at 50 GB — nothing is filtered out to make the numbers look
 better. Deeper data (effective price with its full breakdown, tiers, historical charts,
 provider comparisons) lives on [proxyticker.com](https://proxyticker.com).
