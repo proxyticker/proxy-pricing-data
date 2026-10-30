@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T04:03:23Z",
-  "data_changed_at": "2026-10-29T04:03:23Z",
+  "generated_at": "2026-10-30T04:03:26Z",
+  "data_changed_at": "2026-10-30T04:03:26Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -291,8 +291,7 @@
       "website_url": "https://www.thordata.com",
       "status": "active",
       "categories": [
-        "residential",
-        "mobile"
+        "residential"
       ]
     },
     {
