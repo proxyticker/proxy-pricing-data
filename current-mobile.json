@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T04:03:26Z",
+  "generated_at": "2026-10-31T04:03:02Z",
   "data_changed_at": "2026-10-30T04:03:26Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
@@ -13,7 +13,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.50",
-      "checked_at": "2026-10-30T04:01:08Z",
+      "checked_at": "2026-10-31T04:00:46Z",
       "source_url": "https://catproxies.com/pricing"
     },
     {
@@ -25,7 +25,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "2.00",
-      "checked_at": "2026-10-30T04:01:16Z",
+      "checked_at": "2026-10-31T04:00:53Z",
       "source_url": "https://dataimpulse.com/residential-proxies/"
     },
     {
@@ -37,7 +37,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.40",
-      "checked_at": "2026-10-30T04:01:34Z",
+      "checked_at": "2026-10-31T04:01:11Z",
       "source_url": "https://evomi.com/product/mobile-proxies"
     },
     {
@@ -49,7 +49,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.06",
-      "checked_at": "2026-10-30T04:01:38Z",
+      "checked_at": "2026-10-31T04:01:16Z",
       "source_url": "https://fleetproxy.io/pricing"
     },
     {
@@ -61,7 +61,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "6.00",
-      "checked_at": "2026-10-30T04:01:42Z",
+      "checked_at": "2026-10-31T04:01:20Z",
       "source_url": "https://froxy.com/en/pricing"
     },
     {
@@ -73,7 +73,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "6.00",
-      "checked_at": "2026-10-30T04:01:56Z",
+      "checked_at": "2026-10-31T04:01:34Z",
       "source_url": "https://infatica.io/pricing/"
     },
     {
@@ -85,7 +85,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "5.99",
-      "checked_at": "2026-10-30T04:02:37Z",
+      "checked_at": "2026-10-31T04:02:15Z",
       "source_url": "https://www.proxy-cheap.com/services/mobile-proxies"
     },
     {
@@ -97,7 +97,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "6.6667",
-      "checked_at": "2026-10-30T04:02:44Z",
+      "checked_at": "2026-10-31T04:02:22Z",
       "source_url": "https://proxyempire.io/pricing-table/"
     },
     {
@@ -109,7 +109,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "2.65",
-      "checked_at": "2026-10-30T04:02:47Z",
+      "checked_at": "2026-10-31T04:02:25Z",
       "source_url": "https://proxyscrape.com/products/residential-proxies"
     },
     {
@@ -121,7 +121,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "2.70",
-      "checked_at": "2026-10-29T04:02:57Z",
+      "checked_at": "2026-10-31T04:02:36Z",
       "source_url": "https://psbproxy.io/en/prices/mobile-proxy"
     },
     {
@@ -133,7 +133,7 @@
       "currency": "USD",
       "reference_quantity": "50",
       "headline_price": "3.25",
-      "checked_at": "2026-10-30T04:03:15Z",
+      "checked_at": "2026-10-31T04:02:52Z",
       "source_url": "https://www.simplynode.io/"
     }
   ]
