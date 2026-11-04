@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T04:02:45Z",
-  "data_changed_at": "2026-10-30T04:03:26Z",
+  "generated_at": "2026-11-04T04:03:40Z",
+  "data_changed_at": "2026-11-04T04:03:40Z",
   "license": "CC-BY-4.0",
   "attribution": "ProxyTicker, https://proxyticker.com",
   "providers": [
@@ -78,6 +78,15 @@
       "categories": [
         "residential",
         "mobile"
+      ]
+    },
+    {
+      "slug": "floppydata",
+      "name": "Floppydata",
+      "website_url": "https://floppydata.com",
+      "status": "active",
+      "categories": [
+        "residential"
       ]
     },
     {
@@ -173,6 +182,16 @@
       ]
     },
     {
+      "slug": "proxidize",
+      "name": "Proxidize",
+      "website_url": "https://proxidize.com",
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
+    },
+    {
       "slug": "proxmint",
       "name": "Proxmint",
       "website_url": "https://proxmint.com",
@@ -233,6 +252,16 @@
       "slug": "psb-proxy",
       "name": "PSB Proxy",
       "website_url": "https://psbproxy.io/en",
+      "status": "active",
+      "categories": [
+        "residential",
+        "mobile"
+      ]
+    },
+    {
+      "slug": "quanticdata",
+      "name": "QuanticData",
+      "website_url": "https://quanticdata.io",
       "status": "active",
       "categories": [
         "residential",
