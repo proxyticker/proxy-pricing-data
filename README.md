@@ -99,6 +99,10 @@ Last updated 2026-11-09 (prices last changed 2026-11-04) · [CC BY 4.0](LICENSE)
 
 <!-- prices-mobile:end -->
 
+## Monthly reports
+
+- [November 2026](https://proxyticker.com/reports/2026-11): how far the effective price at 5, 50, 500 and 1,000 GB a month sits above each provider's own "from" price. Aggregates: [`reports/2026-11.csv`](reports/2026-11.csv). Data as of 2026-11-10.
+
 ## Files
 
 - **`current.json`** — current snapshot of list prices at 50 GB for every tracked residential provider.

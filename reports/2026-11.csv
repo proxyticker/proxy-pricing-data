@@ -1,0 +1,9 @@
+snap_date,category,volume_gb,n,median_gap,count_gap_ge_1_5,count_gap_ge_2
+2026-11-10,mobile,5,9,1.85,8,4
+2026-11-10,mobile,50,9,1.50,5,0
+2026-11-10,mobile,500,9,1.11,1,0
+2026-11-10,mobile,1000,9,1.00,0,0
+2026-11-10,residential,5,31,2.40,26,18
+2026-11-10,residential,50,31,1.72,21,10
+2026-11-10,residential,500,31,1.17,6,3
+2026-11-10,residential,1000,31,1.00,4,1
